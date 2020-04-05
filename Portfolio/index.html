@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bayashiko</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script type='text/javascript' src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+              <li><p class="nav-title">Portfolio</p></li>
+            　<li class="hover"><a href="#profile-wrapper"><p>Profile</p></a></li>
+              <li class="hover"><a href="#works-wrapper"><p>Works</p></a></li>
+              <li class="hover"><a href="#skills-wrapper"><p>Skills</p></a></li>
+              <li class="hover"><a href="#cando-wrapper"><p>Price</p></a></li>
+              <li class="hover"><a href="#contact-wrapper"><p>Contact</p></a></li>
+             
+              <button type="button" class="humbarger-btn">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="menu">MENU</span>
+                <span class="close">CLOSE</span>
+              </button>
+
+              <div class="humbarger-menu"> <!--初期設定は非表示-->
+                <li><a href="#profile-wrapper"><p>Profile</p></a></li>
+                <li><a href="#works-wrapper"><p>Works</p></a></li>
+                <li><a href="#skills-wrapper"><p>Skills</p></a></li>
+                <li class="hover"><a href="#cando-wrapper"><p>Price</p></a></li>
+                <li><a href="#contact-wrapper"><p>Contact</p></a></li>
+              </div>
+              <div class="humbarger-bg"></div>
+
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-top">
+            <p class="top-text">Welcome To My Page!!</p>
+        </div>
+        <div id="profile-wrapper">
+                <h2 class="profile-h2">Profile</h2>
+                <div class="profile-inner">
+                    <img src="img/myprofile.JPG" width="200px" height="200px" alt="プロフィール" class="profile-img fadeIn">
+                   <div class="profile-content">
+                    <h3>Kazuma Kobayashi</h3>
+                    <p>早稲田大学に通うフリーランスWebクリエイター&Webエンジニア。</p>
+                    <p>主にスタートアップやベンチャー、toB、toCなど様々なサイト、ランディングページを制作。</p>
+                    <p>成果の出るLP、サイト制作を心がけております。</p>
+                </div>
+                </div>
+        </div>
+        <div id="works-wrapper">
+            <div class="works">
+                <h2 class="works-h2">Works</h2>
+                <div class="works-list">
+                    <ul>
+                        <li class="fadeIn"><img src="img/dance-pc.png" alt=""></li>
+                        <li class="fadeIn"><img src="img/waka-pc.png" alt=""></li>
+                    </ul>
+                    <div class="modal">
+                            <div class="modal-bg"></div>
+                            <div id="formens-modal"><img src="img/formens.png" alt="画像"><a href=""></a></div>
+                            <div class="modal-bg"></div>
+                            <div id="flower-modal"><img src="img/dance.png" alt="画像"><a href=""></a></div>
+                            <div class="modal-bg"></div>
+                            <div id="inter-modal"><img src="img/hokuto.png" alt="画像"><a href=""></a></div>
+                            <div class="modal-bg"></div>
+                            <div id="always-modal"><img src="img/espor.png" alt="画像"><a href=""></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="skills-wrapper">
+            <div class="skills">
+                <h2 class="skills-h2">SKills</h2>
+              <ul class="skills-list">
+                  <li class="html fadeIn"><p class="skill-title">HTML5</p><div><img src="img/html.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+                  <li class="css fadeIn"><p class="skill-title">CSS3</p><div><img src="img/css.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+                  <li class="js fadeIn"><p class="skill-title">Javascript</p><div><img src="img/js.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+                  <li class="jq fadeIn"><p class="skill-title">jQuery</p><div><img src="img/jq.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+                  <li class="sass fadeIn"><p class="skill-title">Sass</p><div><img src="img/sass.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+                  <li class="wp fadeIn"><p class="skill-title">Wordpress</p><div><img src="img/WP.png" alt="" width="300px" height="250px"></div><p class="skill-ability">Ability</p></li>
+              </ul>
+            </div>
+        </div>
+        <div id="cando-wrapper">
+            <h2 class="cando-h2">Price</h2>
+            <ul class="cando-list fadeIn">
+               <li>
+               <p class="cando-title">LP制作</p><br>
+               <img src="img/LP.png" alt="" class="lp-img">
+                価格：30,000円〜<br>
+                期間：2週間〜1ヶ月<br>
+                <p class="cando-description">綿密な導線設計と商品の魅力を引き出すデザイン考案から作らせていただきます。マーケ視点から制作を行い、問い合わせ向上・売上向上に繋がるLPを制作させていただきます。</p>
+            　　</li>
+               <li>
+                    <p class="cando-title">WebサイトのWordpress化</p><br>
+                    <img src="img/PC _wp.png" alt="" class="pc_wp-img">
+                    価格：30,000円〜<br>
+                   　期間：2週間〜<br>
+                   　<p class="cando-description">静的なWebサイトをWordpressに変換し、より管理しやすいサイトにします。また、SEO上有利になるようにカスタマイズもさせていただきます。(検索順位の向上が見込めます)</p>
+               </li>
+               <li>
+                   <p class="cando-title">Wordpressによるサイト制作</p><br>
+                   <img src="img/PC.png" alt="" class="pc-img">
+                   価格：100,000円〜<br>
+                   期間：1ヶ月〜<br>
+                   <p class="cando-description">WordpressにてWebサイトを制作させていただきます。導入したい機能や使用感を相談しながら制作致します。</p>
+               </li>
+               <li>
+                   <p class="cando-title">コーディング</p><br>
+                   <img src="img/PC_code.png" alt="" class="pc-code-img">
+                   価格：10,000円〜<br>
+                   期間：1週間〜<br>
+                　　<p class="cando-description">デザインカンプを元に、SEO対策を施しつつコーディングさせていただきます。</p>
+                   <p class="cando-description">文言や素材をこちらで用意する場合は文字量に応じて別途料金を頂きます。</p>
+               </li>
+            </ul>
+        </div>
+        <div id="contact-wrapper">
+            <div class="contact">
+                <h2 class="contact-h2">Contact</h2>
+                <div class="contact-card fadeIn">
+                    <div class="contact-btn">
+                            <a href="https://twitter.com/thirdman_1220"><i class="fab fa-twitter-square"></i>：DMで問い合わせする</a>
+                            <a href="mailto:kobayashi.yima@gmail.com?body=お問い合わせありがとうございます。%0D%0A%0D%0A%0D%0Aお問い合わせ内容(必須)%0D%0A%0D%0Aお名前(必須)%0D%0A%0D%0A電話番号(任意)%0D%0A%0D%0A３日以内にご返信いたしますのでお待ちください。"><i class="fas fa-envelope"></i>:メールで問い合わせする</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+       
+    </footer>
+</body>
+</html>
